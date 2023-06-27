@@ -1,8 +1,8 @@
 package com.delivery.drone.Enum;
 
 public enum OrderStatus {
-    PACKED("PACKED"),
-    PLACED("PLACED");
+    NOT_PAID("NOT_PAID"),
+    PAID("PAID");
 
     private  String OrderStatus;
 
